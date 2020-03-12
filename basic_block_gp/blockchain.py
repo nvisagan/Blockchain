@@ -137,7 +137,7 @@ def mine():
     response = {
         'new_block': block
     }
-    return jsonify(response), 200
+    return jsonify(response), 200 
 
 @app.route('/chain', methods=['GET'])
 def full_chain():
